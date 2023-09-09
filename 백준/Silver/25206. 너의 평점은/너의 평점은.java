@@ -41,7 +41,7 @@ public class Main { // 백준 25206번
             }
         }
         //System.out.print("평점 : ");
-        System.out.println(totalScore / totalCoursCredit); // 과목이니까 분모가 0일수가 없음.
+        System.out.println(totalScore / totalCoursCredit); // 과목별시간이니까 분모가 0일수가 없음.
 
         sc.close();
     }
