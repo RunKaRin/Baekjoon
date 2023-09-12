@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Main { 백준 1157번
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -42,7 +42,7 @@ public class Main {
                 max = count[i];
             }
         }
-        for (int i = 0; i < 26; i++) { // 중복일 경우 "?"를 출력함.
+        for (int i = 0; i < 26; i++) {
             if (count[maxIndex] == count[i] && maxIndex!=i) {
                 duplication++; break;
             }
