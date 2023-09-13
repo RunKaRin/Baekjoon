@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main2 { // 백준 10988번
+public class Main { // 백준 10988번
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
