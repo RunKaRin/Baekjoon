@@ -1,4 +1,4 @@
-public class Main {
+public class Main { // 백준 25083번
     public static void main(String[] args) {
         System.out.println("         ,r'\"7");
         System.out.println("r`-_   ,'  ,/");
