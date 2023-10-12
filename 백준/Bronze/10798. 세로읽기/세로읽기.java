@@ -4,9 +4,9 @@ public class Main { // 백준 10798번
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        char[][] array = new char[5][15];   // 기본 조건 5x15배열
-        int rows = array.length;            // 5(행)
-        int maxWordLength = 0;              // 단어 최대 길이 초기값
+        char[][] array = new char[5][];     
+        int rows = array.length;    // 5(행)
+        int maxWordLength = 0;      // 단어 최대 길이 초기값
 
         // 문자 입력 받기
         for (int i = 0; i < array.length; i++) {
